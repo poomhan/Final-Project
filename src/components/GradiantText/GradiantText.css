@@ -1,0 +1,9 @@
+.gradiant-text {
+  font-style: normal;
+
+  background: linear-gradient(180deg, #1A2A6C 0%, #B21F1F 51.04%, #FDBB2D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

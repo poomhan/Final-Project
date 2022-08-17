@@ -1,0 +1,40 @@
+{
+  "name": "jsd-project--exercise-diary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fontsource/roboto": "^4.5.7",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@mui/x-date-pickers": "^5.0.0-beta.3",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.4",
+    "firebase": "^9.9.1",
+    "rambda": "^7.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.34.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "styled-component": "^2.8.0",
+    "styled-components": "^5.3.5",
+    "typeface-roboto": "^1.1.13",
+    "vite-plugin-svgr": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "autoprefixer": "^10.4.8",
+    "vite": "^3.0.0"
+  }
+}

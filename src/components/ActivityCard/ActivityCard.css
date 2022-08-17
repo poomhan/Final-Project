@@ -1,0 +1,94 @@
+/* Card CSS */
+
+.Calories {
+    background-image: linear-gradient(90deg, #1A2A6C 0%, #B21F1F 51.04%, #FDBB2D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+  }
+
+.Tag-run {
+        /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 8px;
+    gap: 10px;
+
+    height: 28px;
+
+    /* colorful */
+
+    background: linear-gradient(180deg, #40E0D0 0%, #FF8C00 51.04%, #FF0080 100%);
+    border-radius: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+}
+
+label .Tag-run {
+        /* Run */
+    color: #FFFFFF;
+}
+
+.Tag-swim {
+    /* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 8px;
+gap: 10px;
+
+height: 28px;
+
+/* colorful */
+
+background: linear-gradient(180deg, #40E0D0 0%, #5200FF 99.99%, #FF0080 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+}
+
+.Tag-hike {
+    /* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 8px;
+gap: 10px;
+
+height: 28px;
+
+/* colorful */
+
+background: linear-gradient(180deg, #4DA0B0 0%, #51ECD0 0.01%, #D39D38 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+}
+
+.Tag-ride {
+    /* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 6px 8px;
+gap: 10px;
+
+height: 28px;
+
+/* colorful */
+
+background: linear-gradient(180deg, #12C2E9 0%, #C471ED 51.04%, #F64F59 100%);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+}

@@ -13,6 +13,9 @@ import './ActivityCard.css';
 import ActionMenu from "../ActionMenu/ActionMenu.jsx";
 import dayjs from "dayjs";
 import run from "../../assets/images/run-desk.png";
+import swim from "../../assets/images/swim-desk.png";
+import hiking from "../../assets/images/hiking-desk.png";
+import biking from "../../assets/images/ride-desk.png";
 
 function ActivityCard({ topic, description, calories, date, type, onEdit, onDelete }) {
   const [anchorEl, setAnchorEl] = useState(null)
@@ -37,9 +40,9 @@ function ActivityCard({ topic, description, calories, date, type, onEdit, onDele
   const getActivityImage = (activityType) => {
     return {
       'running': run,
-      'swimming': '../../../../public/swim-desk.png',
-      'hiking': '../../../../public/hiking-desk.png',
-      'biking': '../../../../public/ride-desk.png'
+      'swimming': swim,
+      'hiking': hiking,
+      'biking': biking
     }[activityType]
   }
 

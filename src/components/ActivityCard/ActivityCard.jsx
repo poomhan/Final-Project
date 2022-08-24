@@ -12,7 +12,7 @@ import Chip from '@mui/material/Chip';
 import './ActivityCard.css';
 import ActionMenu from "../ActionMenu/ActionMenu.jsx";
 import dayjs from "dayjs";
-import run from "../../../public/run-desk.png";
+import run from "../../assets/images/run-desk.png";
 
 function ActivityCard({ topic, description, calories, date, type, onEdit, onDelete }) {
   const [anchorEl, setAnchorEl] = useState(null)

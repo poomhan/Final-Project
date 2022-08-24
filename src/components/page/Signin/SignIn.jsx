@@ -13,6 +13,8 @@ import {useContext} from "react";
 import {AppContext} from "../../../contexts/AppContext.jsx";
 import {signIn, signUp} from "../../../libs/authentication.js";
 import '../App/App.css'
+import { Link } from 'react-router-dom';
+
 
 export default function SignIn() {
   const context = useContext(AppContext)
@@ -79,7 +81,8 @@ export default function SignIn() {
           </Button>
           <Grid container>
             <Grid item>
-              <Link href="/sign-up" variant="body2" className='TextColor'>
+              
+              <Link to={`sign-up`} variant="body2" className='TextColor'>
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>

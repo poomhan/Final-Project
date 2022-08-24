@@ -36,7 +36,7 @@ function ActivityCard({ topic, description, calories, date, type, onEdit, onDele
 
   const getActivityImage = (activityType) => {
     return {
-      'running': {run},
+      'running': run,
       'swimming': '../../../../public/swim-desk.png',
       'hiking': '../../../../public/hiking-desk.png',
       'biking': '../../../../public/ride-desk.png'

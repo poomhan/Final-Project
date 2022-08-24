@@ -3,7 +3,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-import Link from '@mui/material/Link';
+// import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
@@ -13,6 +13,7 @@ import {signUp} from "../../../libs/authentication.js";
 import {AppContext} from "../../../contexts/AppContext.jsx";
 import {useContext} from "react";
 import {createProfile} from "../../../api/me.js";
+import {Link} from "react-router-dom"
 
 export default function SignUp() {
   const context = useContext(AppContext)
@@ -40,12 +41,12 @@ export default function SignUp() {
       <Box
         sx={{
           marginTop: 8,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
         }}
       >
-        <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+        <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
@@ -69,7 +70,7 @@ export default function SignUp() {
                 required
                 fullWidth
                 id="email"
-                type='email'
+                type="email"
                 label="Email Address"
                 name="email"
                 autoComplete="email"
@@ -98,7 +99,7 @@ export default function SignUp() {
           </Button>
           <Grid container justifyContent="flex-end">
             <Grid item>
-              <Link href="/sign-in" variant="body2" className='TextColor'>
+              <Link to={`/sign-in`} variant="body2" className="TextColor">
                 Already have an account? Sign in
               </Link>
             </Grid>

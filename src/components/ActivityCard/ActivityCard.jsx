@@ -12,6 +12,7 @@ import Chip from '@mui/material/Chip';
 import './ActivityCard.css';
 import ActionMenu from "../ActionMenu/ActionMenu.jsx";
 import dayjs from "dayjs";
+import run from "../../../../public/run-desk.png";
 
 function ActivityCard({ topic, description, calories, date, type, onEdit, onDelete }) {
   const [anchorEl, setAnchorEl] = useState(null)
@@ -35,7 +36,7 @@ function ActivityCard({ topic, description, calories, date, type, onEdit, onDele
 
   const getActivityImage = (activityType) => {
     return {
-      'running': '../../../../public/run-desk.png',
+      'running': {run},
       'swimming': '../../../../public/swim-desk.png',
       'hiking': '../../../../public/hiking-desk.png',
       'biking': '../../../../public/ride-desk.png'

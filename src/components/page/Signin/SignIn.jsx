@@ -82,7 +82,7 @@ export default function SignIn() {
           <Grid container>
             <Grid item>
               
-              <Link to={`sign-up`} variant="body2" className='TextColor'>
+              <Link to={`/sign-up`} variant="body2" className='TextColor'>
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>

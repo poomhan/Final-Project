@@ -13,7 +13,7 @@ import {useContext} from "react";
 import {AppContext} from "../../../contexts/AppContext.jsx";
 import {signIn, signUp} from "../../../libs/authentication.js";
 import '../App/App.css'
-import Link from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 export default function SignIn() {
